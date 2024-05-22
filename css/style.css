@@ -119,6 +119,10 @@ span{
     background-color: beige;
 }
 
+.bg-bip-azul{
+    background-color: blue;
+}
+
 footer{
     background-color: rgb(156, 103, 103);
     color: white;

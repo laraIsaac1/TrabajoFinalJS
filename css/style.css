@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin:ital,wght@0,400..700;1,400..700&family=Cairo:wght@200..1000&family=Heebo:wght@100..900&family=Noto+Sans+Buhid&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+body{
+    font-family: "Cabin", sans-serif;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+h2{
+    font-family: "Cairo", sans-serif;
+    font-size: medium;
+}
+
+h3{
+    font-family: "Cairo", sans-serif;
+    font-size: x-large;
+}
+
+
+footer{
+    background-color: rgb(156, 103, 103);
+    color: white;
+    font-family: "Noto Sans Buhid", sans-serif;
+    position: sticky;
+    bottom: 0%;
+}
+
+header{
+    background-color: beige;
+    color: black;
+    font-family: "Noto Sans Buhid", sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+.fa-brands{
+    font-size: larger;
+    color: beige;
+}
+
+li{
+    font-family: "Heebo", sans-serif;
+}
+
+nav, ul{
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    row-gap: 30px;
+    align-items: end;
+    margin: 15px;
+
+}
+
+ul {
+    display: inline-block;
+
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Cairo", sans-serif;
+
+}
+
+span{
+    font-family: "Anton", sans-serif;
+    color: rgb(179, 83, 83);
+}
+
+/*img{
+    border-radius: 50%;
+    width: 500px;
+}*/
+
+
+.logoBip{
+    width: 70px;
+}
+
+.escritoBip{
+    width: 70px;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+.nav-link{
+    font-family: "Heebo", sans-serif;
+    color: black;
+    
+}
+
+.bg-bip{
+    background-color: beige;
+}
+
+footer{
+    background-color: rgb(156, 103, 103);
+    color: white;
+    font-family: "Noto Sans Buhid", sans-serif;
+    position: static;
+    bottom: 0%;
+}
+
+.footer-logo{
+    width: 50px;
+    text-align: center;
+    padding: 2%;
+}
+
+span{
+    font-family: "Anton", sans-serif;
+    color: rgb(179, 83, 83);
+}
+
+.fa-brands{
+    font-size: xx-large;
+    color: beige;
+    padding: 2%;
+
+}
+
+
+.principal img{
+    border-radius: 50%;
+    width: 500px;
+    padding: 1%;
+}
+
+body{
+    font-family: "Cabin", sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: x-large;
+    padding: 3%;
+}
+
+h2{
+    font-family: "Cairo", sans-serif;
+    font-size: medium;
+    margin-left: 2%;
+}
+
+h3{
+    font-family: "Cairo", sans-serif;
+    font-size: x-large;
+    margin-left: 2%;
+    text-align: center;
+}
+
+h4{
+    font-size: medium;
+}
+
+h6{
+    text-align: center;
+    font-size: small;
+    padding: 1%;
+}
+
+ p{
+    margin-left: 2%;
+    text-align: justify;
+ }
+
+.carousel-inner{
+    padding: 2%;
+    width: 500px;
+}
+
+.clientes ul{
+    text-align: center;
+    list-style: none;
+}
+
+.nosotros img{
+    margin-left: 20%;
+    margin-bottom: 10%;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.mapa{
+    width: 500px;
+    margin: 10%;
+}
+
+.contacto h2{
+    text-align: left;
+    font-size: x-large;
+    margin-top: 5%;
+}
+
+.servicios li{
+    margin: 2%;
+    list-style: none;
+    text-align: center;
+
+}

@@ -1,0 +1,5 @@
+@mixin diseñoLetra ( $font-s, $marg)
+{
+    font-size: $font-s;
+    margin-left: $marg;
+}

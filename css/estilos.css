@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cabin:ital,wght@0,400..700;1,400..700&family=Cairo:wght@200..1000&family=Heebo:wght@100..900&family=Noto+Sans+Buhid&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: x-large;
+  padding: 3%;
+}
+
+h2 {
+  font-family: "Cairo", sans-serif;
+  font-size: medium;
+  margin-left: 2%;
+}
+
+h3 {
+  font-family: "Cairo", sans-serif;
+  font-size: x-large;
+  margin-left: 2%;
+  text-align: center;
+}
+
+h4 {
+  font-size: medium;
+}
+
+h6 {
+  text-align: center;
+  font-size: small;
+  padding: 1%;
+}
+
+p {
+  margin-left: 2%;
+  text-align: justify;
+}
+
+span {
+  font-family: "Anton", sans-serif;
+  color: rgb(179, 83, 83);
+}
+
+.fa-brands {
+  font-size: xx-large;
+  color: beige;
+  padding: 2%;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+.navbar-nav .nav-link {
+  font-family: "Heebo", sans-serif;
+  color: black;
+}
+
+.bg-bip {
+  background-color: beige;
+}
+
+.logoBip {
+  width: 70px;
+}
+
+.carousel-inner {
+  padding: 2%;
+  width: 500px;
+}
+
+.clientes ul {
+  text-align: center;
+  list-style: none;
+}
+
+.contacto h2 {
+  text-align: left;
+  font-size: x-large;
+  margin-top: 5%;
+}
+.contacto .mapa {
+  width: 500px;
+  margin: 10%;
+}
+
+.nosotros img {
+  margin-left: 20%;
+  margin-bottom: 10%;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.servicios li {
+  margin: 2%;
+  list-style: none;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(156, 103, 103);
+  color: white;
+  font-family: "Noto Sans Buhid", sans-serif;
+  position: static;
+  bottom: 0%;
+}
+footer .footer-logo {
+  width: 50px;
+  text-align: center;
+  padding: 2%;
+}
+
+.fa-brands {
+  font-size: xx-large;
+  color: beige;
+  padding: 2%;
+}
+
+/*# sourceMappingURL=estilos.css.map */

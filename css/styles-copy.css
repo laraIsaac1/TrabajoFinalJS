@@ -94,13 +94,61 @@ span{
 /*img{
     border-radius: 50%;
     width: 500px;
+}*/
+
+
+.logoBip{
+    width: 70px;
 }
 
+.escritoBip{
+    width: 70px;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+.nav-link{
+    font-family: "Heebo", sans-serif;
+    color: black;
+    
+}
+
+.bg-bip{
+    background-color: beige;
+}
+
+.bg-bip-azul{
+    background-color: blue;
+}
+
+footer{
+    background-color: rgb(156, 103, 103);
+    color: white;
+    font-family: "Noto Sans Buhid", sans-serif;
+    position: static;
+    bottom: 0%;
+}
+
+.footer-logo{
+    width: 50px;
+    text-align: center;
+    padding: 2%;
+}
 
 span{
     font-family: "Anton", sans-serif;
     color: rgb(179, 83, 83);
 }
+
+.fa-brands{
+    font-size: xx-large;
+    color: beige;
+    padding: 2%;
+
+}
+
 
 .principal img{
     border-radius: 50%;
@@ -145,5 +193,38 @@ h6{
     margin-left: 2%;
     text-align: justify;
  }
-*/
 
+.carousel-inner{
+    padding: 2%;
+    width: 500px;
+}
+
+.clientes ul{
+    text-align: center;
+    list-style: none;
+}
+
+.nosotros img{
+    margin-left: 20%;
+    margin-bottom: 10%;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.mapa{
+    width: 500px;
+    margin: 10%;
+}
+
+.contacto h2{
+    text-align: left;
+    font-size: x-large;
+    margin-top: 5%;
+}
+
+.servicios li{
+    margin: 2%;
+    list-style: none;
+    text-align: center;
+
+}

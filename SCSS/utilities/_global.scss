@@ -1,0 +1,62 @@
+
+//tipografias
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin:ital,wght@0,400..700;1,400..700&family=Cairo:wght@200..1000&family=Heebo:wght@100..900&family=Noto+Sans+Buhid&display=swap');
+
+
+//diseños globales
+body{
+    font-family: "Cabin", sans-serif;
+}
+
+h1{
+    //@include diseñoLetra(center, x-large, 3%);
+    text-align: center;
+    font-size: x-large;
+    padding: 3%;
+}
+
+h2{
+    font-family: "Cairo", sans-serif;
+    @include diseñoLetra( medium, 2%);
+
+    //font-family: "Cairo", sans-serif;
+   //font-size: medium;
+   //margin-left: 2%;
+}
+
+h3{
+    font-family: "Cairo", sans-serif;
+    @include diseñoLetra( x-large, 2%);
+    //font-family: "Cairo", sans-serif;
+    //font-size: x-large;
+    //margin-left: 2%;
+    text-align: center;
+}
+
+h4{
+    font-size: medium;
+}
+
+h6{
+    text-align: center;
+    font-size: small;
+    padding: 1%;
+}
+
+ p{
+    margin-left: 2%;
+    text-align: justify;
+ }
+
+
+span{
+    font-family: "Anton", sans-serif;
+    color: $colorBip;
+}
+
+.fa-brands{
+    font-size: xx-large;
+    color: beige;
+    padding: 2%;
+
+}

@@ -1,19 +1,18 @@
-
-    .navbar-nav{
-        align-items: center;
-        .nav-link{
-            font-family: "Heebo", sans-serif;
-            color: black;
-            
+nav {
+  align-items: center;
+  li {
+    a {
+      font-family: "Heebo", sans-serif;
+      color: black;
+      img {
+        .logoBip {
+          width: 70px;
         }
-        
+      }
     }
-    .bg-bip{
-        background-color: beige;
-    }
-    .logoBip{
-        width: 70px;
-    }
+  }
+}
 
-
-
+.navbar navbar-expand-lg bg-bip {
+  background-color: beige;
+}

@@ -54,20 +54,19 @@ span {
   padding: 2%;
 }
 
-.navbar-nav {
+nav {
   align-items: center;
 }
-.navbar-nav .nav-link {
+nav li a {
   font-family: "Heebo", sans-serif;
   color: black;
 }
-
-.bg-bip {
-  background-color: beige;
+nav li a img .logoBip {
+  width: 70px;
 }
 
-.logoBip {
-  width: 70px;
+.navbar navbar-expand-lg bg-bip {
+  background-color: beige;
 }
 
 .carousel-inner {

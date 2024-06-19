@@ -1,15 +1,16 @@
-@import "./utilities/reset";
-@import "./utilities/variables";
-@import "./utilities/mixin";
-@import "./utilities/extend";
-@import "./utilities/global";
 
-@import "./components/header";
-@import "./pages/main-inicio";
-@import "./pages/main-clientes";
-@import "./pages/main-contacto";
-@import "./pages/main-nosotros";
-@import "./pages/main-servicios";
-@import "./components/footer";
+@import "../SCSS/utilities/mixin";
+@import "../SCSS/utilities/variables";
+@import "../SCSS/utilities/extend";
+@import "../SCSS/utilities/global";
+@import "../SCSS/utilities/reset";
 
-@import "./utilities/media-querie";
+@import "../SCSS/components/header";
+@import "../SCSS/pages/main-inicio";
+@import "../SCSS/pages/main-clientes";
+@import "../SCSS/pages/main-contacto";
+@import "../SCSS/pages/main-nosotros";
+@import "../SCSS/pages/main-servicios";
+@import "../SCSS/components/footer";
+
+@import "../SCSS/utilities/media-querie";

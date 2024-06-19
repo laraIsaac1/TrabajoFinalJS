@@ -17,7 +17,7 @@ h1{
 
 h2{
     font-family: "Cairo", sans-serif;
-    @include diseñoLetra( medium, 2%);
+    @include disenoLetra(medium, 2%);
 
     //font-family: "Cairo", sans-serif;
    //font-size: medium;
@@ -26,7 +26,7 @@ h2{
 
 h3{
     font-family: "Cairo", sans-serif;
-    @include diseñoLetra( x-large, 2%);
+    @include disenoLetra(x-large, 2%);
     //font-family: "Cairo", sans-serif;
     //font-size: x-large;
     //margin-left: 2%;

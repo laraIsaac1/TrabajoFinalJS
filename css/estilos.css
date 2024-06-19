@@ -1,10 +1,5 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Cabin:ital,wght@0,400..700;1,400..700&family=Cairo:wght@200..1000&family=Heebo:wght@100..900&family=Noto+Sans+Buhid&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Cabin", sans-serif;
 }
@@ -54,29 +49,64 @@ span {
   padding: 2%;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 nav {
   align-items: center;
 }
-nav li a {
+nav .navbar-nav li a {
   font-family: "Heebo", sans-serif;
   color: black;
+  font-size: larger;
 }
-nav li a img .logoBip {
+nav .navbar-nav li a:hover {
+  color: rgb(173, 111, 111);
+}
+nav .logoBip {
   width: 70px;
 }
 
-.navbar navbar-expand-lg bg-bip {
+.navbar .navbar-expand-lg .bg-bip {
   background-color: beige;
 }
 
 .carousel-inner {
   padding: 2%;
-  width: 500px;
+  width: 700px;
+}
+
+p {
+  padding-left: 7%;
+  padding-right: 7%;
+  font-size: large;
 }
 
 .clientes ul {
   text-align: center;
   list-style: none;
+}
+
+.principal img {
+  width: 90%;
+  border-radius: 50%;
+  padding: 5%;
+}
+
+.col h1 {
+  font-size: xx-large;
+}
+.col h4 {
+  font-size: x-large;
+}
+.col h3 {
+  font-size: x-large;
+}
+.col li {
+  font-size: x-large;
 }
 
 .contacto h2 {
@@ -109,16 +139,16 @@ footer {
   position: static;
   bottom: 0%;
 }
-footer .footer-logo {
-  width: 50px;
-  text-align: center;
-  padding: 2%;
+footer .logoBip {
+  display: inline-block; /* Para asegurar que los elementos sean tratados como bloques inline */
+  text-align: end;
+  padding: 10px 0;
+  width: 70px;
 }
-
-.fa-brands {
-  font-size: xx-large;
+footer .fa-brands {
+  font-size: 2rem; /* Tamaño del icono de WhatsApp */
   color: beige;
-  padding: 2%;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

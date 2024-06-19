@@ -4,16 +4,20 @@ footer{
     font-family: "Noto Sans Buhid", sans-serif;
     position: static;
     bottom: 0%;
-    .footer-logo{
-        width: 50px;
-        text-align: center;
-        padding: 2%;
+
+    .logoBip {
+        display: inline-block; /* Para asegurar que los elementos sean tratados como bloques inline */
+        text-align:end;
+        padding: 10px 0;
+        width: 70px;
+    }
+    
+    .fa-brands {
+        font-size: 2rem; /* Tamaño del icono de WhatsApp */
+        color: beige;
+        padding: 10px;
     }
 }
-.fa-brands{
-    font-size: xx-large;
-    color: beige;
-    padding: 2%;
 
-}
+
 

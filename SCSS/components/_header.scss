@@ -1,18 +1,26 @@
 nav {
   align-items: center;
-  li {
-    a {
-      font-family: "Heebo", sans-serif;
-      color: black;
-      img {
-        .logoBip {
-          width: 70px;
+
+  .navbar-nav {
+    li {
+      a {
+        font-family: "Heebo", sans-serif;
+        color: black;
+        font-size: larger;
+
+        &:hover {
+          color: rgb(173, 111, 111); 
         }
       }
     }
   }
+
+  .logoBip {
+    width: 70px;
+  }
 }
 
-.navbar navbar-expand-lg bg-bip {
+
+.navbar .navbar-expand-lg .bg-bip {
   background-color: beige;
 }

@@ -2,8 +2,8 @@ nav {
   align-items: center;
 
   .navbar-nav {
-    li {
-      a {
+    .nav-item {
+      .nav-link {
         font-family: "Heebo", sans-serif;
         color: black;
         font-size: larger;

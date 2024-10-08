@@ -85,6 +85,19 @@ p {
   font-size: large;
 }
 
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px; /* Ajusta la distancia desde el fondo de la imagen */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Asegura que los indicadores ocupen todo el ancho de la imagen */
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
 .clientes ul {
   text-align: center;
   list-style: none;

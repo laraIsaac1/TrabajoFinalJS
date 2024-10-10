@@ -11,12 +11,37 @@
     }
 }
 
-.opiniones{
+/*.opiniones{
     .row{
         .col-form-label{
-            font-size: 1.5rem;
+            font-size: large; //no anda
         }
         
     }
     
+}
+
+.opiniones-img {
+    width: 100%;
+    max-width: 90%;
+    border-radius: 50%;
+    padding: 5%;
+}*/
+
+.img-container
+{
+    width: 100px;        // El ancho del contenedor
+    height: 100px;       // La altura del contenedor
+    padding: 10px;       // Un poco de espacio alrededor
+    border: 1px solid #0e0d0d;
+    background-color: aqua; // Bordes alrededor del contenedor (opcional)
+    display: flex;       // Centrar la imagen dentro del contenedor
+    justify-content: center;
+    align-items: center;
+}
+
+.principal img {
+    width: 90%;
+    border-radius: 50%;
+    padding: 5%;
 }

@@ -77,3 +77,42 @@ let personal = [];
         });
     }
     document.addEventListener('DOMContentLoaded', mostrarOpiniones);
+
+    
+    //CLIENTES
+    document.addEventListener("DOMContentLoaded", () => { 
+        const listaClientes = [
+          {
+            id: 1,
+            nombre: "Annet",
+            rubro: "Perfumería",
+            ubicacion: "Avellaneda-Santa Fe",
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV1UQ_Aa7O3yBwQ9EPqbbTCEjF6QxFJlD5xQ&s"
+          },
+          {
+            id: 2,
+            nombre: "Sweet Smile",
+            rubro: "Tienda de golosinas",
+            ubicacion: "Reconquista-Santa Fe",
+            img: "https://lh3.googleusercontent.com/p/AF1QipMTIUxc-Qeh-5Idcku5leRLJ7DCiQP5VnRWyjlZ=s680-w680-h510"
+          }
+        ];
+      
+        const contenedorClientes = document.getElementById("contenedor-clientes");
+      
+        listaClientes.forEach((cli) => {
+          const div = document.createElement("div");
+          div.classList.add("cliente-tarjeta", "col-md-3"); // Bootstrap Grid System, 3 columnas por fila
+      
+          div.innerHTML = `
+            <img src="${cli.img}" alt="${cli.nombre}">
+            <h3>${cli.nombre}</h3>
+            <p>${cli.rubro}</p>
+            <p>${cli.ubicacion}</p>
+          `;
+          
+          contenedorClientes.appendChild(div);
+        });
+      });
+      
+    

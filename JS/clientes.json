@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "Supermercados BYG",
+        "rubro": "Supermercado",
+        "ubicacion": "Avellaneda-Santa Fe",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsHIzhF9Mpnq7RMlXQAPsu4KGcasGq04E6EA&s"
+    },
+    {
+        "nombre": "Annet",
+        "rubro": "Perfumería",
+        "ubicacion": "Avellaneda-Santa Fe",
+        "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fperfumeriaannetdesde1978%2F%3Flocale%3Des_LA&psig=AOvVaw0O0uVIO6uwRCmIiGbzbr6X&ust=1730656892633000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCk1r6dvokDFQAAAAAdAAAAABAK"
+    },
+    {
+        "nombre": "Caricaturas",
+        "rubro": "Librería",
+        "ubicacion": "Reconquista-Santa Fe",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNbgLHbQd9inSp2zLrhPLevq4qYfnH_tkIDw&s"
+    },
+    {
+        "nombre": "Casa Ferreyra",
+        "rubro": "Concesionario de motos",
+        "ubicacion": "Reconquista-Santa Fe",
+        "logo": "https://vialibre.ar/wp-content/uploads/2024/10/Casa-Ferreyra-2024-1.png"
+    },
+    {
+        "nombre": "Mercado Modelo",
+        "rubro": "Supermercado",
+        "ubicacion": "Reconquista-Santa Fe",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwjDpLsVClNyugBd2VFMBK9VmE2Nga8JGnkQ&s"
+    },
+    {
+        "nombre": "Nardelli Construcciones",
+        "rubro": "Constructora",
+        "ubicacion": "Reconquista-Santa Fe",
+        "logo": "https://nardellisrl.com/wp-content/uploads/2020/06/logonardellimenu.jpg"
+    },
+    {
+        "nombre": "Tu planta lista",
+        "rubro": "Bar",
+        "ubicacion": "Reconquista-Santa Fe",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1QrTAVORdBuXzqsLeZ6Fph4X7Cx3_jhUKg&s"
+    }
+]

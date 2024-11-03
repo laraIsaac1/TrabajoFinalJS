@@ -1,5 +1,5 @@
 
-# Es importante segur estos pasos antes de continuar. Hay una sección en la que se toma información del localStorage y luego se la guarda en un archivo llamado personal.json y para que esto funcione correctamente es necesario CONFIGURAR EL SERVIDOR de la siguiente manera :
+# Es importante seguir estos pasos antes de continuar. En la sección de personal se toma información del localStorage y luego se la guarda en un archivo llamado personal.json .Para que esto funcione correctamente es necesario CONFIGURAR EL SERVIDOR de la siguiente manera :
     Si no tienes Node.js instalado, descárgalo e instálalo desde nodejs.org.
 
     Una vez instalado, abre la terminal en gitbash y ejecute: npm init -y

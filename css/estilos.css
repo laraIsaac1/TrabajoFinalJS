@@ -1,72 +1,186 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Cabin:ital,wght@0,400..700;1,400..700&family=Cairo:wght@200..1000&family=Heebo:wght@100..900&family=Noto+Sans+Buhid&display=swap");
-body {
-  font-family: "Cabin", sans-serif;
+
+
+/*fullPage*/
+@media (max-width: 768px) {
+  /* Estilos para pantallas pequeñas */
+  #header {
+      height: auto; /*80*/
+  }
+  
+  #footer {
+      height: auto; /*50*/
+  }
+  
+  #fullpage {
+      padding: auto; /*20*/
+  }
 }
 
-h1 {
-  text-align: center;
-  font-size: xx-large;
-  padding: 3%;
+/* Estilos para pantallas grandes */
+@media (min-width: 769px) {
+  #header {
+      height: auto; 
+  }
+  
+  #footer {
+      height: auto; 
+  }
+  
+  #fullpage {
+      padding: auto; 
+  }
 }
 
-h2 {
-  font-family: "Cairo", sans-serif;
-  font-size: medium;
-  margin-left: 2%;
-}
 
-h3 {
-  font-family: "Cairo", sans-serif;
-  font-size: x-large;
-  margin-left: 2%;
-  text-align: center;
-}
-
-h4 {
-  font-size:x-large;
-  text-align: center;
-}
-
-h6 {
-  text-align: center;
-  font-size: small;
-  padding: 1%;
-}
-
-p {
-  margin-left: 2%;
-  text-align: justify;
-}
-
-span {
-  font-family: "Anton", sans-serif;
-  color: rgb(179, 83, 83);
-}
-
-.fa-brands {
-  font-size: xx-large;
-  color: beige;
-  padding: 2%;
-}
-
-* {
-  padding: 0;
+html, body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
-  box-sizing: border-box;
+  overflow: hidden;
 }
+
+/* Fixed header and footer */
+#header, 
+#footer{
+  position: fixed;
+  width: 100%;
+  background: #333;
+  z-index: 9;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 30px 0;
+  display: flex;
+  align-items:center;
+  justify-content:end;
+}
+
+#header{
+  background-color: rgba(179, 83, 83, 0.87);
+  color: white;
+  font-family: "Noto Sans Buhid", sans-serif;
+  flex: 0 0 100px;
+  padding: 0;
+}
+
+#footer{
+  flex: 0 0 60px;
+  background-color: rgba(179, 83, 83, 0.87);
+  color: beige;
+  font-family: "Noto Sans Buhid", sans-serif;
+  bottom:0px;
+  padding:0;
+}
+
+#footer .logoBip {
+  display: inline-block; 
+  text-align: end;
+  width: 70px;
+}
+
+#footer .fa-brands {
+  font-size: 2rem; 
+  color: beige;
+  padding: 10px;
+}
+
+.section {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el contenido */
+  justify-content: flex-start; /* Alinea a la izquierda */
+  padding: 20px; 
+}
+
+.section, .slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  min-height: calc(100vh - 160px);
+}
+
+.clientes {
+  width: 100%;
+  text-align: center;
+}
+
+.clientes h1 {
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+ } 
+
+.section .row {
+  width: 100%; 
+}
+
+.section h1, .section h4 {
+  font-size: calc(1.5em + 1vw);
+  text-align: center;
+}
+
+.col-md-6 img {
+  max-width: 55%; 
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Cabin", sans-serif;
+  color: #fff;
+  text-align:center;
+}
+
+h1{
+  font-size: 6em;
+  font-size: calc(2em + 2vw);
+  margin:0;
+}
+
+/* Backgrounds colors for sections */
+.fp-section:nth-child(1){
+  background-color: rgba(179, 83, 83, 0.808);
+}
+
+.fp-section:nth-child(2){
+  background-color: rgba(179, 83, 83, 0.808);
+}
+
+.fp-section:nth-child(3){
+  background-image: linear-gradient(128deg,#fc40ff,#543fff);
+}
+
 
 nav {
   align-items: center;
 }
+
 nav .navbar-nav li a {
   font-family: "Heebo", sans-serif;
-  color: black;
+  color: beige;
   font-size: larger;
 }
+
 nav .navbar-nav li a:hover {
   color: rgb(173, 111, 111);
 }
+
 nav .logoBip {
   width: 70px;
 }
@@ -74,95 +188,3 @@ nav .logoBip {
 .navbar .navbar-expand-lg .bg-bip {
   background-color: beige;
 }
-
-.carousel-inner {
-  padding: 2%;
-  width: 700px;
-}
-
-p {
-  padding-left: 7%;
-  padding-right: 7%;
-  font-size: large;
-}
-
-.carousel-indicators {
-  position: absolute;
-  bottom: 10px; /* Ajusta la distancia desde el fondo de la imagen */
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
-  width: 100%; /* Asegura que los indicadores ocupen todo el ancho de la imagen */
-  padding-left: 0;
-  margin-left: 0;
-  list-style: none;
-}
-
-.clientes ul {
-  text-align: center;
-  list-style: none;
-}
-
-.principal img {
-  width: 90%;
-  border-radius: 50%;
-  padding: 5%;
-}
-
-.col h1 {
-  font-size: xx-large;
-}
-.col h4 {
-  font-size: x-large;
-}
-.col h3 {
-  font-size: x-large;
-}
-.col li {
-  font-size: x-large;
-}
-
-.contacto h2 {
-  text-align: left;
-  font-size: x-large;
-  margin-top: 5%;
-}
-.contacto .mapa {
-  width: 500px;
-  margin: 10%;
-}
-
-.nosotros img {
-  margin-left: 20%;
-  margin-bottom: 10%;
-  width: 50%;
-  border-radius: 15px;
-}
-
-.servicios li {
-  margin: 2%;
-  list-style: none;
-  text-align: center;
-}
-
-footer {
-  background-color: rgb(156, 103, 103);
-  color: white;
-  font-family: "Noto Sans Buhid", sans-serif;
-  position: static;
-  bottom: 0%;
-}
-footer .logoBip {
-  display: inline-block; /* Para asegurar que los elementos sean tratados como bloques inline */
-  text-align: end;
-  padding: 10px 0;
-  width: 70px;
-}
-footer .fa-brands {
-  font-size: 2rem; /* Tamaño del icono de WhatsApp */
-  color: beige;
-  padding: 10px;
-}
-
-/*# sourceMappingURL=estilos.css.map */

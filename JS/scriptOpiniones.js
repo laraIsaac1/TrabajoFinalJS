@@ -1,3 +1,14 @@
+//FullPage
+var myFullpage = new fullpage('#fullpage', {
+  autoScrolling: true,
+  fitToSection: false,
+  paddingTop: '100px',
+  paddingBottom: '60px',
+  anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+  responsiveHeight: 700,
+
+});
+
 let opiniones = JSON.parse(localStorage.getItem("opiniones")) || []; //para que se guarden los comentarios por mas que se refresque la página
 
 function guardarDatosOpiniones() {
@@ -45,16 +56,20 @@ function mostrarOpiniones() {
 
   opiniones.forEach((opinion) => {
     const opinionHTML = `
-            <div class="opinion">
-                <p>Opinión de <strong>${opinion.nombre}</strong> de la empresa <strong>${opinion.empresa}</strong>.</p>
-                <p><strong>${opinion.nombre}</strong> considera que nuestro servicio es <strong>${opinion.sistema}</strong> y nuestra atención post-venta es <strong>${opinion.postVenta}</strong>.</p>
-                <p>Comentario: <em>${opinion.comentario}</em></p>
-            </div>
+      <div class="slide">
+        <div class="opinion">
+          <p>Opinión de <strong>${opinion.nombre}</strong> de la empresa <strong>${opinion.empresa}</strong>.</p>
+          <p><strong>${opinion.nombre}</strong> considera que nuestro servicio es <strong>${opinion.sistema}</strong> y nuestra atención post-venta es <strong>${opinion.postVenta}</strong>.</p>
+          <p>Comentario: <em>${opinion.comentario}</em></p>
+        </div>
+      </div>
             <hr>
         `;
 
     contenedorOpiniones.innerHTML += opinionHTML;
   });
+
+  fullpage_api.reBuild();
 }
 
 

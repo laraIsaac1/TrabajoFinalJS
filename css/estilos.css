@@ -61,7 +61,6 @@ html, body {
   background-color: rgba(179, 83, 83, 0.87);
   color: white;
   font-family: "Noto Sans Buhid", sans-serif;
-  flex: 0 0 100px;
   padding: 0;
 }
 
@@ -101,6 +100,7 @@ html, body {
   height: auto;
   min-height: calc(100vh - 160px);
 }
+
 
 .clientes {
   width: 100%;
@@ -163,9 +163,12 @@ h1{
 }
 
 .fp-section:nth-child(3){
-  background-image: linear-gradient(128deg,#fc40ff,#543fff);
+  background-color: rgba(179, 83, 83, 0.808);
 }
 
+.fp-section:nth-child(4){
+  background-color: rgba(179, 83, 83, 0.808);
+}
 
 nav {
   align-items: center;
@@ -187,4 +190,58 @@ nav .logoBip {
 
 .navbar .navbar-expand-lg .bg-bip {
   background-color: beige;
+}
+
+.card {
+  max-width: 400px; /* Controla el ancho de la tarjeta */
+  height: auto; /* Permite que la tarjeta crezca con el contenido */
+}
+
+.card-img-top {
+  max-height: 400px; /* Ajusta la altura de la imagen */
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-text, .card-title {
+  overflow-wrap: break-word;
+}
+
+.imagenNosotros{
+  max-height: 500px; /* Ajusta la altura de la imagen */
+  width: 500px;
+}
+
+#botonOpiniones {
+  background-color: beige;
+  color: black;
+  padding: 10px 20px;
+  border: 2px solid transparent; /* Sin borde visible */
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#botonOpiniones:hover {
+  background-color: rgb(173, 111, 111);
+}
+
+#botonEnvio{
+  background-color: beige;
+  color: black;
+  padding: 10px 20px;
+  border: 2px solid transparent; /* Sin borde visible */
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#botonEnvio:hover {
+  background-color: rgb(173, 111, 111);
 }

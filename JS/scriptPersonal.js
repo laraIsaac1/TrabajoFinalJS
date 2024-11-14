@@ -63,10 +63,6 @@ function mostrarToastify(message, background) {
     }).showToast();
 }
 
-/*window.onload = () => {
-    mostrarToastify("Esto es un mensaje de prueba", "linear-gradient(to right, #00b09b, #96c93d)");
-};*/
-
 document.getElementById("botonEnvio").addEventListener("click", (e) => {
     e.preventDefault();
     guardarDatosPersona();
